@@ -1,5 +1,60 @@
 const products=[
-[1,"Inspiración Nina Ricci","Perfumes","20260506_010431.jpg","Perfume femenino · presentación en caja",""],[2,"Inspiración Nina Ricci L'Extase","Perfumes","20260506_010507.jpg","Perfume femenino · presentación en caja","2 unidades"],[3,"Inspiración Olympéa","Perfumes","20260506_010522.jpg","Aroma femenino · presentación en caja","2 unidades"],[4,"Pure Coffee de mujer","Perfumes","20260506_010642.jpg","Aroma intenso · presentación en caja",""],[5,"Inspiración Mahir Lattafa","Perfumes","20260506_010650.jpg","Aroma oriental · presentación en caja",""],[6,"Inspiración Sakeena Lattafa","Perfumes","20260506_010657.jpg","Aroma femenino · presentación en caja",""],[7,"Inspiración Baccarat Rouge 540","Perfumes","20260506_010748.jpg","Aroma unisex · presentación en caja","2 unidades"],[8,"Oud Romancea Ard Al Zaafaran","Perfumes","20260506_010807.jpg","Aroma oriental · presentación en caja","2 unidades"],[9,"Inspiración Arabian Wood","Perfumes","20260506_010820.jpg","Aroma amaderado · presentación en caja","2 unidades"],[10,"Inspiración Ralph Lauren Romance","Perfumes","20260506_011000.jpg","Aroma femenino · presentación en caja",""],[11,"Inspiración Versace Pour Homme","Perfumes","20260506_011014.jpg","Aroma masculino · presentación en caja",""],[12,"Oud Mood Lattafa","Perfumes","20260506_011020.jpg","Aroma oriental · presentación en caja",""],[13,"Inspiración Yaral Lattafa","Perfumes","20260506_011027.jpg","Versión splash · presentación en caja",""],[14,"Inspiración 1 Million","Perfumes","20260506_011046.jpg","Aroma masculino · presentación en caja",""],[15,"Inspiración CK One Shock","Perfumes","20260506_011050.jpg","Aroma masculino · presentación en caja",""],[16,"Inspiración Romantic Beauty","Perfumes","20260506_011117.jpg","Aroma femenino · presentación en caja","3 unidades"],[17,"Inspiración Thank U, Next","Perfumes","20260506_011127.jpg","Aroma femenino · presentación en caja",""],[18,"Ameer Al Oudh Intense Oud","Perfumes","20260506_011138.jpg","Aroma oriental · presentación en caja","3 unidades"],[19,"Inspiración Cloud Pink","Perfumes","20260506_011158.jpg","Aroma femenino · presentación en caja","2 unidades"],[20,"Inspiración Cloud","Perfumes","20260506_011208.jpg","Aroma femenino · presentación en caja",""],[21,"Xiaomi Redmi Note 14 Pro+ 5G","Tecnología","20260517_210451.jpg","Smartphone nuevo en caja · consulta capacidad y especificaciones","Destacado"],[22,"Azzaro Forever Wanted","Perfumes","20260721_003352.jpg","Perfume masculino · producto original en caja",""],[23,"Azzaro Wanted","Perfumes","20260721_003421.jpg","Perfume masculino · producto original en caja",""],[24,"Azzaro The Most Wanted","Perfumes","20260721_003433.jpg","Perfume masculino · producto original en caja",""],[25,"Set Azzaro Wanted","Perfumes","20260721_003605.jpg","Estuche con perfume, miniatura y cuidado personal","Set regalo"],[26,"Set Hugo Boss","Perfumes","20260721_003726.jpg","Estuche con perfume y cuidado personal","Set regalo"],[27,"Sofá gris reclinable","Hogar","20260724_125700.jpg","Sofá amplio color gris · varias posiciones · coordinar retiro","Retiro"]
+  [
+    21,
+    "Xiaomi Redmi Note 14 Pro+ 5G",
+    "Tecnología",
+    "20260517_210451.jpg",
+    "Smartphone nuevo en caja · consulta capacidad y especificaciones",
+    "Destacado"
+  ],
+  [
+    22,
+    "Azzaro Forever Wanted",
+    "Perfumes",
+    "20260721_003352.jpg",
+    "Perfume masculino · producto original en caja",
+    ""
+  ],
+  [
+    23,
+    "Azzaro Wanted",
+    "Perfumes",
+    "20260721_003421.jpg",
+    "Perfume masculino · producto original en caja",
+    ""
+  ],
+  [
+    24,
+    "Azzaro The Most Wanted",
+    "Perfumes",
+    "20260721_003433.jpg",
+    "Perfume masculino · producto original en caja",
+    ""
+  ],
+  [
+    25,
+    "Set Azzaro Wanted",
+    "Perfumes",
+    "20260721_003605.jpg",
+    "Estuche con perfume, miniatura y cuidado personal",
+    "Set regalo"
+  ],
+  [
+    26,
+    "Set Hugo Boss",
+    "Perfumes",
+    "20260721_003726.jpg",
+    "Estuche con perfume y cuidado personal",
+    "Set regalo"
+  ],
+  [
+    27,
+    "Sofá gris reclinable",
+    "Hogar",
+    "20260724_125700.jpg",
+    "Sofá amplio color gris · varias posiciones · coordinar retiro",
+    "Retiro"
+  ]
 ];
 const categories=["Todos","Perfumes","Tecnología","Hogar"];let active="Todos";let query="";
 const grid=document.querySelector("#product-grid"),count=document.querySelector("#result-count"),empty=document.querySelector("#empty"),filters=document.querySelector("#filters");
