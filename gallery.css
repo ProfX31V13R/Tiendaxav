@@ -1,0 +1,2 @@
+.card-image img{position:absolute;inset:0;opacity:0}.card-image img.active{opacity:1}.card:hover img{transform:none}.card:hover img.active{transform:scale(1.035)}
+.gallery-prev,.gallery-next{position:absolute;z-index:3;top:50%;transform:translateY(-50%);width:30px;height:42px;border:0;background:#fffdf1e8;color:#603965;font-size:24px;font-weight:bold;box-shadow:0 2px 8px #0002}.gallery-prev{left:7px}.gallery-next{right:7px}.gallery-count{position:absolute;z-index:3;right:9px;bottom:9px;background:#fffef0e8;border-radius:999px;padding:4px 7px;font-size:10px;font-weight:750}
