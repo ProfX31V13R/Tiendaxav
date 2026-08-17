@@ -9,7 +9,19 @@ const products=[
 [9,"Lote de perfumes Azzaro","Perfumes","20260726_130139.jpg","Conjunto de cuatro perfumes Azzaro en caja","Lote","$45.000"],
 [10,"Auto Mercedes rojo a batería","Otros","669366377_904313255941917_7588542433340182220_n.jpg","Auto infantil rojo estilo Mercedes · consultar características","","$80.000"],
 [11,"Cafetera Nespresso Vertuo Pop","Hogar","Gemini_Generated_Image_wh2jb2wh2jb2wh2j.jpg","Cafetera Nespresso Vertuo Pop con cápsulas y accesorios","Oferta","$60.000"],
-[12,"Zapatillas Adidas","Calzado","WhatsApp Image 2026-04-27 at 10.18.42.jpg","Zapatillas Adidas nuevas en caja · consultar modelo y talla","Varias unidades","$30.000"]
+[12,"Zapatillas Adidas","Calzado","WhatsApp Image 2026-04-27 at 10.18.42.jpg","Zapatillas Adidas nuevas en caja · consultar modelo y talla","Varias unidades","$30.000"],
+[13,"Botas verdes","Calzado","publicidad-botas-talla-44-oferta-10000.jpg","Botas verdes con elástico lateral · talla 44","Oferta","$10.000"],
+[14,"Zapatillas Skechers beige","Calzado","publicidad-skechers-talla-35-oferta-25000.jpg","Zapatillas Skechers color beige · talla 35","Oferta","$25.000"],
+[15,"Zapatillas Reebok blancas","Calzado","publicidad-reebok-talla-36-oferta-25000.jpg","Zapatillas Reebok blancas · talla 36","Oferta","$25.000"],
+[16,"Zapatillas Reebok Flip Charge blancas","Calzado","publicidad-reebok-flip-charge-talla-45-oferta-29990.jpg","Zapatillas Reebok Flip Charge blancas · talla 45","Oferta","$29.990"],
+[17,"Zapatillas Reebok Flip Charge blancas","Calzado","publicidad-reebok-flip-charge-talla-42-oferta-29990.jpg","Zapatillas Reebok Flip Charge blancas · talla 42","Oferta","$29.990"],
+[18,"Zapatillas Reebok Flip Charge negras","Calzado","publicidad-reebok-flip-charge-talla-37-oferta-29990.jpg","Zapatillas Reebok Flip Charge negras · talla 37","Oferta","$29.990"],
+[19,"Zapatillas Pimps negras","Calzado","publicidad-pimps-talla-38-5-oferta-15000.jpg","Zapatillas negras · talla 38.5","Oferta","$15.000"],
+[20,"Zapatillas Nike celestes","Calzado","publicidad-nike-celeste-talla-38-5-oferta-25000.jpg","Zapatillas Nike color celeste · talla 38.5","Oferta","$25.000"],
+[21,"Zapatillas Le Coq Sportif","Calzado","publicidad-le-coq-talla-37-oferta-25000.jpg","Zapatillas Le Coq Sportif multicolor · talla 37","Oferta","$25.000"],
+[22,"Zapatillas Nike rosadas","Calzado","publicidad-nike-rosa-talla-36-oferta-25000.jpg","Zapatillas Nike color rosado · talla 36","Oferta","$25.000"],
+[23,"Zapatillas Panama Jack","Calzado","publicidad-panama-jack-talla-40-oferta-30000.jpg","Zapatillas Panama Jack para exterior · talla 40","Oferta","$30.000"],
+[24,"Zapatos Bata con taco","Calzado","publicidad-zapato-bata-talla-39.jpg","Zapatos Bata color beige con taco · talla 39","Oferta","$13.000"]
 ];
 const categories=["Todos","Perfumes","Tecnología","Hogar","Calzado","Otros"];let active="Todos",query="";
 const grid=document.querySelector("#product-grid"),count=document.querySelector("#result-count"),empty=document.querySelector("#empty"),filters=document.querySelector("#filters");
