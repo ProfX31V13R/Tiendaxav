@@ -3,7 +3,6 @@ const products=[
 [2,"Azzaro Forever Wanted","Perfumes","20260721_003352.jpg","Perfume masculino Azzaro · producto en caja","","$55.000"],
 [3,"Azzaro Wanted","Perfumes",["20260721_003421.jpg","20260721_003444.jpg"],"Perfume masculino Azzaro Wanted · producto en caja","2 unidades","$45.000"],
 [4,"Azzaro The Most Wanted","Perfumes","20260721_003433.jpg","Perfume masculino Azzaro · producto en caja","","$45.000"],
-[5,"Azzaro Wanted Eau de Parfum","Perfumes","20260721_003553.jpg","Perfume masculino Azzaro Wanted · presentación individual","","$60.000"],
 [6,"Set Azzaro Wanted","Perfumes",["20260721_003605.jpg","20260721_003613.jpg"],"Estuche con perfume, miniatura y producto de cuidado personal","Set regalo","$60.000"],
 [7,"Set Hugo Boss The Scent","Perfumes",["20260721_003726.jpg","20260721_003730.jpg"],"Estuche con perfume, miniatura y producto de cuidado personal","Set regalo","$60.000"],
 [8,"Sofá gris de tres cuerpos","Hogar",["20260724_125700.jpg","20260724_125723.jpg","20260724_125735.jpg","20260724_125739.jpg","20260724_125743.jpg","20260724_125745.jpg"],"Sofá amplio color gris, NO reclinable · coordinar retiro","Retiro","$90.000"],
